@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Genshin.Characters.Api.Handlers;
 
 namespace Genshin.Characters.Api
 {
@@ -28,6 +29,11 @@ namespace Genshin.Characters.Api
         {
 
             services.AddControllers();
+
+            //Register Dependencies
+            services.AddScoped<ICharacterHandler, CharacterHandler>();
+            //
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CharacterApi", Version = "v1" });

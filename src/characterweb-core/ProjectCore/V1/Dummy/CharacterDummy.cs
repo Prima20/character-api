@@ -15,7 +15,7 @@ namespace Genshin.Characters.Core.ProjectCore.V1.Dummy
     /// </summary>
     public static class CharacterDummy
     {
-        public static List<Character> Characters = new()
+        public static List<Character> CharactersDummyList = new()
         {
             new Character { Id = Guid.NewGuid(), Name = "jean", IsLimited = false, Weapon = WeaponClass.Sword, Rarity = 5, Region = Region.Mondstadt, Vision = Vision.Anemo },
             new Character { Id = Guid.NewGuid(), Name = "diluc", IsLimited = false, Weapon = WeaponClass.Claymore, Rarity = 5, Region = Region.Mondstadt, Vision = Vision.Pyro },
