@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Genshin.Character.Api</RootNamespace>
-    <AssemblyName>Genshin.Character.Api</AssemblyName>
+    <RootNamespace>Genshin.Characters.Api</RootNamespace>
+    <AssemblyName>Genshin.Characters.Api</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

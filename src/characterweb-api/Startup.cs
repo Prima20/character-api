@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Genshin.Character.Api
+namespace Genshin.Characters.Api
 {
     public class Startup
     {
