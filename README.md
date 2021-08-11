@@ -6,5 +6,8 @@ Learn creating api with genshin character data, get from dummy data
 ### Get all character
 > /api/Character/
 
-### Get By id
-> /api/Character/{id}
+### Get by id
+> /api/Character/Index/{id}
+
+### Get by name
+> /api/Character/Name/{id}
