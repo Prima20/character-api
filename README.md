@@ -10,4 +10,4 @@ Learn creating api with genshin character data, get from dummy data
 > /api/Character/Index/{id}
 
 ### Get by name
-> /api/Character/Name/{id}
+> /api/Character/Name/{name}
