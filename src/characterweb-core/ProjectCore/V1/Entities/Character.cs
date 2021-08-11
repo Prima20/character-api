@@ -13,6 +13,7 @@ namespace Genshin.Characters.Core.ProjectCore.V1.Entities
     public record Character
     {
         public Guid Id { init; get; }
+        public string ImageUrl { init; get; }
         public string Name { init; get; }
         [Range(1, 5)]
         public int Rarity { init; get; }

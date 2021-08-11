@@ -23,7 +23,7 @@ namespace Genshin.Characters.Core.ProjectCore.V1.Dummy
             new Character { Id = Guid.NewGuid(), Name = "klee", IsLimited = true, Weapon = WeaponClass.Catalyst, Rarity = 5, Region = Region.Mondstadt, Vision = Vision.Pyro },
             new Character { Id = Guid.NewGuid(), Name = "barbara", IsLimited = false, Weapon = WeaponClass.Catalyst, Rarity = 4, Region = Region.Mondstadt, Vision = Vision.Hydro },
             new Character { Id = Guid.NewGuid(), Name = "keqing", IsLimited = false, Weapon = WeaponClass.Sword, Rarity = 5, Region = Region.Liyue, Vision = Vision.Electro },
-            new Character { Id = Guid.NewGuid(), Name = "Zhongli", IsLimited = true, Weapon = WeaponClass.Polearm, Rarity = 5, Region = Region.Liyue, Vision = Vision.Geo },
+            new Character { Id = Guid.NewGuid(), Name = "zhongli", IsLimited = true, Weapon = WeaponClass.Polearm, Rarity = 5, Region = Region.Liyue, Vision = Vision.Geo },
             new Character { Id = Guid.NewGuid(), Name = "xinqiu", IsLimited = false, Weapon = WeaponClass.Sword, Rarity = 4, Region = Region.Liyue, Vision = Vision.Hydro },
             new Character { Id = Guid.NewGuid(), Name = "qiqi", IsLimited = false, Weapon = WeaponClass.Catalyst, Rarity = 5, Region = Region.Liyue, Vision = Vision.Cyro },
             new Character { Id = Guid.NewGuid(), Name = "razor", IsLimited = true, Weapon = WeaponClass.Sword, Rarity = 4, Region = Region.Mondstadt, Vision = Vision.Electro },
@@ -43,7 +43,10 @@ namespace Genshin.Characters.Core.ProjectCore.V1.Dummy
             new Character { Id = Guid.NewGuid(), Name = "eula", IsLimited = true, Weapon = WeaponClass.Claymore, Rarity = 5, Region = Region.Mondstadt, Vision = Vision.Cyro },
             new Character { Id = Guid.NewGuid(), Name = "ganyu", IsLimited = true, Weapon = WeaponClass.Bow, Rarity = 5, Region = Region.Liyue, Vision = Vision.Cyro },
             new Character { Id = Guid.NewGuid(), Name = "beidou", IsLimited = true, Weapon = WeaponClass.Claymore, Rarity = 4, Region = Region.Liyue, Vision = Vision.Electro },
-            new Character { Id = Guid.NewGuid(), Name = "amber", IsLimited = false, Weapon = WeaponClass.Bow, Rarity = 4, Region = Region.Mondstadt, Vision = Vision.Pyro }
+            new Character { Id = Guid.NewGuid(), Name = "amber", IsLimited = false, Weapon = WeaponClass.Bow, Rarity = 4, Region = Region.Mondstadt, Vision = Vision.Pyro },
+            new Character { Id = Guid.NewGuid(), Name = "ayaka", IsLimited = true, Weapon = WeaponClass.Sword, Rarity = 5, Region = Region.Inazuma, Vision = Vision.Cyro },
+            new Character { Id = Guid.NewGuid(), Name = "sayu", IsLimited = true, Weapon = WeaponClass.Claymore, Rarity = 4, Region = Region.Inazuma, Vision = Vision.Anemo },
+            new Character { Id = Guid.NewGuid(), Name = "yoimiya", IsLimited = true, Weapon = WeaponClass.Bow, Rarity = 5, Region = Region.Inazuma, Vision = Vision.Pyro }
         };
     }
 }
