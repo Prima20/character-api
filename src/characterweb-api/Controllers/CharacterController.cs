@@ -32,13 +32,28 @@ namespace Genshin.Characters.Api.Controllers
         }
 
         //GET /{id}
-        [HttpGet("{id}")]
+        [HttpGet("Index/{id}")]
         [Produces("application/json")]
         [ProducesResponseType(typeof(GetCharacterResponse), 200)]
         public async Task<IActionResult> GetById(Guid id)
         {
             Character character = await _characterHandler.GetById(id);
             if(character is null)
+            {
+                return NotFound();
+            }
+            var response = CreateGetCharacterResponse(character);
+            return Ok(response);
+        }
+
+        //GET /{name}
+        [HttpGet("Name/{name}")]
+        [Produces("application/json")]
+        [ProducesResponseType(typeof(GetCharacterResponse), 200)]
+        public async Task<IActionResult> GetByName(string name)
+        {
+            Character character = await _characterHandler.GetByName(name);
+            if (character is null)
             {
                 return NotFound();
             }
